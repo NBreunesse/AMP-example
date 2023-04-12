@@ -10,7 +10,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/NBreunesse/AMP-example@main/qamp.
 				nameForLogging : 'Psychedelic', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : '<p style="font-size:40px>' + 'Psychedelics'}, 
+				    {word : '<div><p style="font-size:40px><br/>' + 'Psychedelics'}, 
 					{word : 'Hallucinogen'}, 
 					{word : 'LSD'}, 
 					{word : 'Psilocybin'}, 
