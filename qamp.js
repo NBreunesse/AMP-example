@@ -131,8 +131,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 100, 
-			postPrimeDuration : 100, //Duration of blank screen between prime and target.
+			primeDuration : 75, 
+			postPrimeDuration : 125, //Duration of blank screen between prime and target.
 			targetDuration : 100, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
 			ITI : 250, //Duration between trials.
@@ -144,8 +144,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1, 
-			exampleBlock_primeDuration : 100, 
-			exampleBlock_postPrimeDuration : 100, 
+			exampleBlock_primeDuration : 75, 
+			exampleBlock_postPrimeDuration : 125, 
 			exampleBlock_targetDuration : 300, 
 			
 			//Instructions text for the 2-responses version.
